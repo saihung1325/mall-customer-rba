@@ -20,7 +20,7 @@ class MallCustomerRBA:
         os.environ["http_proxy"] = "http://127.0.0.1:7890"
         os.environ["https_proxy"] = "http://127.0.0.1:7890"
         os.environ[
-            "OPENAI_API_KEY"] = "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"
+            "OPENAI_API_KEY"] = "YOUR KEY"  //please use your key
 
         # 设置API密钥
         openai.api_key = os.environ.get("OPENAI_API_KEY")
